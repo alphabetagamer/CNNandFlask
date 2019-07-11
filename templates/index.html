@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Malaria Cell Detection</title>
+    {{ dropzone.load_css() }}
+    {{ dropzone.style('border: 2px dashed #0087F7; margin: 10px 0 10px; min-height: 200px;') }}
+</head>
+<body style="background-color: teal">
+	{{ dropzone.create('upload') }}
+	{{ dropzone.load_js() }}
+ 	{{ dropzone.config() }}
+	<div style="margin: auto;width: 80%;text-align: center;">
+		<div>
+			<h1 style="font-family: 'Helvetica', 'Arial', sans-serif;text-align: center;margin: 0;padding: 2em; color: white;">Malaria Cell Detection</h1>
+		</div>
+
+<button id="upload" style="border-radius: 5px;color: white;background-color:teal;margin: auto;padding: 0.5em;font-family: 'Helvetica', 'Arial', sans-serif;font-size: 1em;font-weight:550 ">Upload</button>
+</body>
+</html>
